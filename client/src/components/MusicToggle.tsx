@@ -1,27 +1,42 @@
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import { Volume2, VolumeX, Music } from "lucide-react";
 import { Button } from "@/components/ui/button";
+
+const AMBIENT_MUSIC_URL = "https://cdn.pixabay.com/audio/2024/02/14/audio_08e717d3ed.mp3";
 
 export function MusicToggle() {
   const [isPlaying, setIsPlaying] = useState(false);
   const [showTooltip, setShowTooltip] = useState(false);
+  const [audioError, setAudioError] = useState(false);
   const audioRef = useRef<HTMLAudioElement | null>(null);
+
+  useEffect(() => {
+    return () => {
+      if (audioRef.current) {
+        audioRef.current.pause();
+        audioRef.current = null;
+      }
+    };
+  }, []);
 
   const toggleMusic = () => {
     if (!audioRef.current) {
-      audioRef.current = new Audio("");
+      audioRef.current = new Audio(AMBIENT_MUSIC_URL);
       audioRef.current.loop = true;
       audioRef.current.volume = 0.3;
+      audioRef.current.onerror = () => setAudioError(true);
     }
 
     if (isPlaying) {
       audioRef.current.pause();
+      setIsPlaying(false);
     } else {
-      audioRef.current.play().catch(() => {
-        console.log("Audio playback failed - user interaction required");
-      });
+      audioRef.current.play()
+        .then(() => setIsPlaying(true))
+        .catch(() => {
+          setAudioError(true);
+        });
     }
-    setIsPlaying(!isPlaying);
   };
 
   return (
@@ -34,7 +49,7 @@ export function MusicToggle() {
         <div className="absolute bottom-full right-0 mb-2 px-3 py-1.5 bg-card border border-card-border rounded-md shadow-md whitespace-nowrap animate-fade-in">
           <span className="text-sm text-muted-foreground font-serif flex items-center gap-1.5">
             <Music className="w-3 h-3" />
-            {isPlaying ? "Pause music" : "Play background music"}
+            {audioError ? "Audio unavailable" : isPlaying ? "Pause music" : "Play romantic music"}
           </span>
         </div>
       )}
