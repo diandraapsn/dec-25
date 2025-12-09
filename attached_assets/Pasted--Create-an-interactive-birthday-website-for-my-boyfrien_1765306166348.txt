@@ -1,0 +1,51 @@
+￼
+
+Create an interactive birthday website for my boyfriend with a love letter / envelope theme.
+The website should open with a cute envelope or folded letter animation in the center of the screen. The user should click the envelope to open it, revealing the content inside like a handwritten love letter.
+Design & Vibes:
+* Soft pastel color palette: blush pink, cream, baby blue
+* Warm, cozy, handwritten love letter aesthetic
+* Gentle animations:
+    * envelope opening
+    * floating hearts
+    * twinkling stars
+    * smooth fade-in text as the letter unfolds
+* Feels intimate, romantic, Gen Z coded, and not overly formal
+Structure & Content:
+1. Hero Section (inside the opened letter)
+    * Title text: “Someone I Love Was Born Today ✨”
+    * Subtle, sweet entrance animation
+2. Romantic Message
+    * Short paragraph in Gen Z-style romantic English
+    * Poetic, warm, and genuine (not cringe, not too dramatic)
+    * Sounds like a heartfelt love letter written at night
+3. “Reasons I Love You” Section
+    * Cute cards or bullet points inside the letter
+    * Playful, sweet reasons (small moments, habits, inside jokes)
+4. Interactive Birthday Surprise Button
+    * Button text: “Click for a Birthday Surprise 🎉”
+    * On click:
+        * show a hidden love note
+        * a 1 yes-day coupon
+        * trigger floating emoji/hearts explosion
+        * optional soft animation
+5. Birthday Countdown or Make a Wish Moment
+    * Simple countdown timer to his birthday (his bday on dec 25 and i will give the web to him on dec 24 11.30 am)
+    *  a “close your eyes and make a wish ✨” interaction
+6. Final Message Section
+    * Title: “To the Man Who Stole My Heart”
+    * A heartfelt birthday message as the closing of the letter
+Technical Requirements:
+* Use simple HTML, CSS, and a bit of JavaScript
+* PC-friendly and responsive
+* Clean, beginner-friendly code (easy to edit text and colors)
+* Use vintage aesthetic-style font(s) and soft gradients
+* Include small cute emoji details (💌 ✨ 💗 🌷)
+Optional Cute Add-ons (if possible):
+* A mini love quiz about us (multiple choice, playful results)
+* A fake popup that says: “Error: too much love 💗”
+* A background music toggle (lany’s song, optional autoplay OFF)
+The final result should feel like opening a personal digital love letter made just for him — romantic, playful, emotional, and memorable.
+
+Please focus more on emotional flow and interaction and heavy  visuals.
+
