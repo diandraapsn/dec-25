@@ -14,23 +14,25 @@ export function FinalMessage() {
       </h3>
 
       <div className="max-w-lg mx-auto space-y-4">
-        <p className="font-casual text-lg sm:text-xl text-foreground/90 leading-relaxed">
+        <p className="font-casual text-lg sm:text-xl text-foreground leading-relaxed">
           On this special day, I want you to know that meeting you was the best 
           thing that ever happened to me. You make every day brighter, every laugh 
           louder, and every moment more meaningful.
         </p>
 
-        <p className="font-casual text-lg sm:text-xl text-foreground/90 leading-relaxed">
-          Thank you for being my person, my best friend, and my forever. 
-          Here's to another year of us, and all the beautiful memories we'll create together.
+        <p className="font-casual text-lg sm:text-xl text-foreground leading-relaxed">
+          You mean more to me than you could ever imagine, in ways words will never fully explain. 
+          So let me raise a toast to the boy I love the most in this whole wide world. 
+          It feels like all the stars in the universe showed up tonight just for your birthday. 
+          To the man who stole my heart so effortlessly
         </p>
 
         <p className="font-handwriting text-2xl sm:text-3xl text-primary mt-8">
-          Happy Birthday, my love
+          Happy birthday, my love
         </p>
 
         <div className="pt-6">
-          <p className="font-signature text-3xl sm:text-4xl text-foreground/80">
+          <p className="font-signature text-3xl sm:text-4xl text-foreground">
             Forever yours
           </p>
         </div>

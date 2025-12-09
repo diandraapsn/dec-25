@@ -26,7 +26,7 @@ export function EnvelopeAnimation({ onOpen }: EnvelopeAnimationProps) {
         <p className="font-handwriting text-xl sm:text-2xl text-muted-foreground mb-2">
           You have a special letter
         </p>
-        <p className="font-casual text-sm text-muted-foreground/70">
+        <p className="font-casual text-sm text-muted-foreground">
           Click to open
         </p>
       </div>

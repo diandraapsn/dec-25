@@ -1,6 +1,30 @@
-node_modules
-dist
+node_modules/
+npm-debug.log*
+package-lock.json
+.env
 .DS_Store
-server/public
-vite.config.ts.*
-*.tar.gz
+
+# Vite/cache
+dist/
+.cache/
+
+# Replit state (local)
+.local/state/
+.replit
+
+# Logs
+logs/
+*.log
+
+# OS files
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Build output
+client/dist/
+
+# Keep audio if user wants it versioned (do not ignore)
+# client/public/background-song.mp3  <-- kept intentionally

@@ -11,17 +11,7 @@ export function LetterContent() {
       data-testid="letter-content"
     >
       <div className="max-w-2xl mx-auto">
-        <div 
-          className="bg-card/80 backdrop-blur-sm rounded-lg border border-card-border shadow-xl p-6 sm:p-10"
-          style={{
-            backgroundImage: `
-              linear-gradient(to bottom right, 
-                hsl(30 50% 97% / 0.9), 
-                hsl(340 30% 96% / 0.9)
-              )
-            `,
-          }}
-        >
+        <div className="bg-card/80 backdrop-blur-sm rounded-lg border border-card-border shadow-xl p-6 sm:p-10">
           <section className="text-center mb-12 pt-4" data-testid="hero-section">
             <div className="flex justify-center gap-2 mb-4">
               <Sparkles className="w-5 h-5 text-amber-400 animate-twinkle" />
@@ -49,23 +39,24 @@ export function LetterContent() {
           <div className="w-24 h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent mx-auto mb-12" />
 
           <section className="mb-12" data-testid="romantic-message-section">
-            <p className="font-casual text-lg sm:text-xl text-foreground/90 leading-relaxed text-center">
-              Hey you,
+            <p className="font-casual text-lg sm:text-xl text-foreground leading-relaxed text-center">
+              Hi Ting!,
             </p>
-            <p className="font-casual text-lg sm:text-xl text-foreground/90 leading-relaxed text-center mt-4">
-              It's that time of year again — the day the universe decided to bless 
+            <p className="font-casual text-lg sm:text-xl text-foreground leading-relaxed text-center mt-4">
+              It's that time of year again (merry christmas, xoxo), the day the universe decided to bless 
               this world with someone who would later steal my entire heart. I still 
               remember how we started, how every little moment with you felt like 
               something out of a dream. And honestly? It still does.
             </p>
-            <p className="font-casual text-lg sm:text-xl text-foreground/90 leading-relaxed text-center mt-4">
-              You're not just my person — you're my safe place, my 2 AM thought, 
-              and the reason I believe in all those cheesy love songs. I hope this 
-              year brings you everything you deserve (which is literally everything 
-              good in this world).
+            <p className="font-casual text-lg sm:text-xl text-foreground leading-relaxed text-center mt-4">
+              Loving you doesn't feel loud, it feels safe.
+              It feels like coming home after a long night.
+              Like warmth settling quietly into my chest and refusing to leave.
+              If i could give you anything today, it would be all the happiness you give me 
+              returned, multiplied, and wrapped gently around you.
             </p>
             <p className="font-handwriting text-xl sm:text-2xl text-primary text-center mt-6">
-              I'm so lucky it's you
+              I'm so lucky it's you. Always.
             </p>
           </section>
 
@@ -86,7 +77,7 @@ export function LetterContent() {
           <FinalMessage />
 
           <div className="text-center pt-8 pb-4">
-            <div className="inline-flex items-center gap-2 text-muted-foreground/50 text-sm font-serif">
+            <div className="inline-flex items-center gap-2 text-muted-foreground text-sm font-serif">
               <Heart className="w-3 h-3 fill-current" />
               <span>Made with love, just for you</span>
               <Heart className="w-3 h-3 fill-current" />

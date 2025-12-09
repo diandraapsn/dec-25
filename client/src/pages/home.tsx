@@ -26,7 +26,7 @@ export default function Home() {
             <div class="text-4xl mb-3">💗</div>
             <p class="font-display text-lg text-foreground mb-2">Error 404</p>
             <p class="font-casual text-muted-foreground">Too much love detected</p>
-            <p class="font-casual text-sm text-muted-foreground/70 mt-1">Unable to contain feelings</p>
+            <p class="font-casual text-sm text-muted-foreground mt-1">Unable to contain feelings</p>
             <button 
               onclick="document.getElementById('love-error-popup').remove()" 
               class="mt-4 px-4 py-2 bg-primary text-primary-foreground rounded-md font-serif text-sm"

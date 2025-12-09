@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from "react";
 import { Volume2, VolumeX, Music } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-const AMBIENT_MUSIC_URL = "https://cdn.pixabay.com/audio/2024/02/14/audio_08e717d3ed.mp3";
+const AMBIENT_MUSIC_URL = "/background-song.mp3";
 
 export function MusicToggle() {
   const [isPlaying, setIsPlaying] = useState(false);
