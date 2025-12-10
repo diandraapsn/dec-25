@@ -39,8 +39,8 @@ export function BirthdaySurprise() {
               <Heart className="w-8 h-8 text-primary fill-primary animate-heart-beat" />
             </div>
             <p className="font-casual text-lg text-foreground leading-relaxed mb-4">
-              Happy Birthday, my love! You are the best thing that ever happened to me. 
-              Every day with you feels like a gift, and I'm so grateful the universe 
+              Happy birthday, love! you are the best thing that ever happened to me. 
+              Every day with you feels like a gift, and i'm so grateful the universe 
               brought us together.
             </p>
             <p className="font-handwriting text-xl text-primary">

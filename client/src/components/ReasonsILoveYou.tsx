@@ -29,7 +29,7 @@ const reasons = [
   },
   {
     icon: MessageCircle,
-    text: "Your voice notes that I replay when I miss you",
+    text: "The way you care, even when you think no one notices",
     color: "text-blue-400",
   },
   {

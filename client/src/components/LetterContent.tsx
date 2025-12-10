@@ -40,7 +40,7 @@ export function LetterContent() {
 
           <section className="mb-12" data-testid="romantic-message-section">
             <p className="font-casual text-lg sm:text-xl text-foreground leading-relaxed text-center">
-              Hi Ting!,
+              Hi Ting!
             </p>
             <p className="font-casual text-lg sm:text-xl text-foreground leading-relaxed text-center mt-4">
               It's that time of year again (merry christmas, xoxo), the day the universe decided to bless 

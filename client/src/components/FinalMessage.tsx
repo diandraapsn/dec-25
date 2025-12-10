@@ -22,18 +22,18 @@ export function FinalMessage() {
 
         <p className="font-casual text-lg sm:text-xl text-foreground leading-relaxed">
           You mean more to me than you could ever imagine, in ways words will never fully explain. 
-          So let me raise a toast to the boy I love the most in this whole wide world. 
+          So let me raise a toast to the boy i love the most in this whole wide world. 
           It feels like all the stars in the universe showed up tonight just for your birthday. 
           To the man who stole my heart so effortlessly
         </p>
 
         <p className="font-handwriting text-2xl sm:text-3xl text-primary mt-8">
-          Happy birthday, my love
+          Happy birthday, my sweet destiny.
         </p>
 
         <div className="pt-6">
           <p className="font-signature text-3xl sm:text-4xl text-foreground">
-            Forever yours
+            With love, D.
           </p>
         </div>
       </div>
